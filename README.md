@@ -35,3 +35,7 @@ pip install -r requirements.txt
 ```
 scrapy crawl pep
 ```
+
+### Автор
+Бурлака Владислав
+vartexxx29@yandex.ru

@@ -1,10 +1,11 @@
 import csv
 import datetime as dt
+from collections import defaultdict
 
 from itemadapter import ItemAdapter
 
-from .exceptions import NoStatusException
-from .settings import BASE_DIR, DATETIME_FORMAT
+from pep_parse.exceptions import NoStatusException
+from pep_parse.settings import BASE_DIR, DATETIME_FORMAT, PEP_TABLE_HEADER
 
 
 class PepParsePipeline:
@@ -14,15 +15,13 @@ class PepParsePipeline:
         self.results_dir.mkdir(exist_ok=True)
 
     def open_spider(self, spider):
-        self.pep_status = {}
+        self.pep_status = defaultdict(int)
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
         if adapter.get('status'):
             pep_status = adapter['status']
-            self.pep_status[pep_status] = (
-                self.pep_status.get(pep_status, 0) + 1
-            )
+            self.pep_status[pep_status] += 1
             return item
         else:
             raise NoStatusException(f'missing status: {item}')
@@ -34,7 +33,7 @@ class PepParsePipeline:
         file_path = self.results_dir / file_name
         with open(file_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')
-            writer.writerow(('Статус', 'Количество'))
+            writer.writerow(PEP_TABLE_HEADER)
             for key, value in self.pep_status.items():
                 writer.writerow([key, value])
-            writer.writerow(['Total', total])
+            writer.writerow(['Всего', total])

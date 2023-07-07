@@ -7,6 +7,8 @@ NEWSPIDER_MODULE = "pep_parse.spiders"
 
 ROBOTSTXT_OBEY = True
 DATETIME_FORMAT = '%Y-%m-%d_%H-%M-%S'
+PEP_NAME_PATTERN = r'PEP\s(?P<number>\d+)\W+(?P<name>.+)$'
+PEP_TABLE_HEADER = ('Статус', 'Количество')
 
 BASE_DIR = Path(__file__).parent.parent
 

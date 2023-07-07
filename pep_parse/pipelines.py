@@ -21,7 +21,8 @@ class PepParsePipeline:
         if adapter.get('status'):
             pep_status = adapter['status']
             self.pep_status[pep_status] = (
-                self.pep_status.get(pep_status, 0) + 1)
+                self.pep_status.get(pep_status, 0) + 1
+            )
             return item
         else:
             raise NoStatusException(f'missing status: {item}')
@@ -32,9 +33,9 @@ class PepParsePipeline:
         file_name = f'status_summary_{time_formated}.csv'
         file_path = self.results_dir / file_name
         writing_format = (
-            [["Статус", "Количество"]]
-            + [[k, v] for k, v in self.pep_status.items()]
-            + [["Total", total]]
+            [["Статус", "Количество"]] +
+            [[k, v] for k, v in self.pep_status.items()] +
+            [["Total", total]]
         )
         with open(file_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')

@@ -1,336 +1,336 @@
 number,name,status
 1,PEP Purpose and Guidelines,13-Jun-2000
-239,Adding a Rational Type to Python,11-Mar-2001
-245,Python Interface Syntax,11-Jan-2001
-240,Adding a Rational Literal to Python,11-Mar-2001
-242,Numeric Kinds,17-Mar-2001
 244,The,20-Mar-2001
 243,Module Repository Upload Mechanism,18-Mar-2001
+246,Object Adaptation,21-Mar-2001
+242,Numeric Kinds,17-Mar-2001
+240,Adding a Rational Literal to Python,11-Mar-2001
+239,Adding a Rational Type to Python,11-Mar-2001
 241,Metadata for Python Software Packages,12-Mar-2001
-232,Function Attributes,02-Dec-2000
 238,Changing the Division Operator,11-Mar-2001
+245,Python Interface Syntax,11-Jan-2001
 237,Unifying Long Integers and Integers,11-Mar-2001
+235,Import on Case-Insensitive Platforms,21-Feb-2001
+234,Iterators,30-Jan-2001
 236,Back to the __future__,26-Feb-2001
 233,Python Online Help,11-Dec-2000
-234,Iterators,30-Jan-2001
-231,__findattr__(),30-Nov-2000
-235,Import on Case-Insensitive Platforms,21-Feb-2001
+232,Function Attributes,02-Dec-2000
 8104,2023 Term Steering Council election,08-Nov-2022
-8103,2022 Term Steering Council election,04-Oct-2021
 8102,2021 Term Steering Council election,29-Oct-2020
+8103,2022 Term Steering Council election,04-Oct-2021
 8101,2020 Term Steering Council election,16-Nov-2019
-8015,Organization of the Python community,04-Oct-2018
 8100,January 2019 Steering Council election,03-Jan-2019
 8016,The Steering Council Model,01-Nov-2018
+8015,Organization of the Python community,04-Oct-2018
 8014,The Commons Governance Model,16-Sep-2018
 8012,The Community Governance Model,03-Oct-2018
-8011,Python Governance Model Lead by Trio of Pythonistas,24-Aug-2018
 8013,The External Council Governance Model,14-Sep-2018
 8010,The Technical Leader Governance Model,24-Aug-2018
-8000,Python Language Governance Proposal Overview,24-Aug-2018
-8001,Python Governance Voting Process,24-Aug-2018
-3333,Python Web Server Gateway Interface v1.0.1,26-Sep-2010
+8011,Python Governance Model Lead by Trio of Pythonistas,24-Aug-2018
 8002,Open Source Governance Survey,24-Aug-2018
+8001,Python Governance Voting Process,24-Aug-2018
+8000,Python Language Governance Proposal Overview,24-Aug-2018
+3333,Python Web Server Gateway Interface v1.0.1,26-Sep-2010
+3156,Asynchronous IO Support Rebooted: the “asyncio” Module,12-Dec-2012
 3155,Qualified name for classes and functions,29-Oct-2011
 3154,Pickle protocol version 4,11-Aug-2011
-3156,Asynchronous IO Support Rebooted: the “asyncio” Module,12-Dec-2012
 3153,Asynchronous IO support,29-May-2011
+3151,Reworking the OS and IO exception hierarchy,21-Jul-2010
 3152,Cofunctions,13-Feb-2009
 3150,Statement local namespaces (aka “given” clause),09-Jul-2010
-3151,Reworking the OS and IO exception hierarchy,21-Jul-2010
 3149,ABI version tagged .so files,09-Jul-2010
-3147,PYC Repository Directories,16-Dec-2009
 3148,futures - execute computations asynchronously,16-Oct-2009
+3144,IP Address Manipulation Library for the Python Standard Library,06-Feb-2012
 3146,Merging Unladen Swallow into CPython,01-Jan-2010
+3147,PYC Repository Directories,16-Dec-2009
 3143,Standard daemon process library,26-Jan-2009
 3145,Asynchronous I/O For subprocess.Popen,04-Aug-2009
-3144,IP Address Manipulation Library for the Python Standard Library,06-Feb-2012
-3141,A Type Hierarchy for Numbers,23-Apr-2007
 3142,Add a “while” clause to generator expressions,12-Jan-2009
+3141,A Type Hierarchy for Numbers,23-Apr-2007
 3140,"str(container) should call str(item), not repr(item)",27-May-2008
 3139,Cleaning out sys and the “interpreter” module,04-Apr-2008
-3138,String representation in Python 3000,05-May-2008
 3137,Immutable Bytes and Mutable Buffer,26-Sep-2007
-3136,Labeled break and continue,30-Jun-2007
-3133,Introducing Roles,", "
-3135,New Super,28-Apr-2007
+3138,String representation in Python 3000,05-May-2008
 3134,Exception Chaining and Embedded Tracebacks,12-May-2005
+3136,Labeled break and continue,30-Jun-2007
+3135,New Super,28-Apr-2007
+3133,Introducing Roles,", "
 3132,Extended Iterable Unpacking,30-Apr-2007
+3131,Supporting Non-ASCII Identifiers,01-May-2007
 3130,Access to Current Module/Class/Function,22-Apr-2007
 3129,Class Decorators,01-May-2007
-3127,Integer Literal Support and Syntax,14-Mar-2007
 3128,BList: A Faster List-like Type,30-Apr-2007
-3125,Remove Backslash Continuation,29-Apr-2007
+3127,Integer Literal Support and Syntax,14-Mar-2007
 3126,Remove Implicit String Concatenation,29-Apr-2007
-3131,Supporting Non-ASCII Identifiers,01-May-2007
 3124,"Overloading, Generic Functions, Interfaces, and Adaptation",", "
-3123,Making PyObject_HEAD conform to standard C,27-Apr-2007
 3122,Delineation of the main module,27-Apr-2007
-3118,Revising the buffer protocol,28-Aug-2006
-3120,Using UTF-8 as the default source encoding,15-Apr-2007
-3117,Postfix type declarations,01-Apr-2007
-3119,Introducing Abstract Base Classes,18-Apr-2007
+3123,Making PyObject_HEAD conform to standard C,27-Apr-2007
 3121,Extension Module Initialization and Finalization,27-Apr-2007
+3125,Remove Backslash Continuation,29-Apr-2007
+3120,Using UTF-8 as the default source encoding,15-Apr-2007
+3118,Revising the buffer protocol,28-Aug-2006
+3119,Introducing Abstract Base Classes,18-Apr-2007
+3117,Postfix type declarations,01-Apr-2007
 3116,New I/O,26-Feb-2007
 3115,Metaclasses in Python 3000,07-Mar-2007
+3113,Removal of Tuple Parameter Unpacking,02-Mar-2007
 3114,Renaming iterator.next() to iterator.__next__(),04-Mar-2007
 3112,Bytes literals in Python 3000,23-Feb-2007
 3111,Simple input built-in in Python 3000,13-Sep-2006
 3110,Catching Exceptions in Python 3000,16-Jan-2006
-3113,Removal of Tuple Parameter Unpacking,02-Mar-2007
-3109,Raising Exceptions in Python 3000,19-Jan-2006
-3107,Function Annotations,02-Dec-2006
 3108,Standard Library Reorganization,01-Jan-2007
-3106,"Revamping dict.keys(), .values() and .items()",19-Dec-2006
+3109,Raising Exceptions in Python 3000,19-Jan-2006
 3105,Make print a function,19-Nov-2006
+3107,Function Annotations,02-Dec-2006
+3106,"Revamping dict.keys(), .values() and .items()",19-Dec-2006
 3103,A Switch/Case Statement,25-Jun-2006
-3100,Miscellaneous Python 3.0 Plans,20-Aug-2004
 3104,Access to Names in Outer Scopes,12-Oct-2006
 3102,Keyword-Only Arguments,22-Apr-2006
-3101,Advanced String Formatting,16-Apr-2006
 3099,Things that will Not Change in Python 3000,04-Apr-2006
-3003,Python Language Moratorium,21-Oct-2009
+3100,Miscellaneous Python 3.0 Plans,20-Aug-2004
+3101,Advanced String Formatting,16-Apr-2006
 3002,Procedure for Backwards-Incompatible Changes,27-Mar-2006
-3000,Python 3000,05-Apr-2006
-801,Reserved,21-Jun-2018
+3003,Python Language Moratorium,21-Oct-2009
 3001,Procedure for reviewing and improving standard library modules,05-Apr-2006
-754,IEEE 754 Floating Point Special Values,28-Mar-2003
+801,Reserved,21-Jun-2018
+3000,Python 3000,05-Apr-2006
 719,Python 3.13 Release Schedule,26-May-2023
 715,Disabling bdist_egg distribution uploads on PyPI,06-Jun-2023
 714,Rename dist-info-metadata in the Simple API,06-Jun-2023
+754,IEEE 754 Floating Point Special Values,28-Mar-2003
 713,Callable Modules,20-Apr-2023
+712,Adding a “converter” parameter to dataclasses.field,01-Jan-2023
 711,PyBI: a standard format for distributing Python Binaries,06-Apr-2023
 709,Inlined comprehensions,24-Feb-2023
-712,Adding a “converter” parameter to dataclasses.field,01-Jan-2023
 710,Recording the provenance of installed packages,27-Mar-2023
-707,A simplified signature for __exit__ and __aexit__,18-Feb-2023
 708,Extending the Repository API to Mitigate Dependency Confusion Attacks,20-Feb-2023
-703,Making the Global Interpreter Lock Optional in CPython,09-Jan-2023
-706,Filter for tarfile.extractall,09-Feb-2023
 705,TypedMapping: Type Hints for Mappings with a Fixed Set of Keys,07-Nov-2022
+706,Filter for tarfile.extractall,09-Feb-2023
+707,A simplified signature for __exit__ and __aexit__,18-Feb-2023
 704,Require virtual environments by default for package installers,16-Jan-2023
-701,Syntactic formalization of f-strings,15-Nov-2022
 702,Marking deprecations using the type system,30-Dec-2022
-693,Python 3.12 Release Schedule,24-May-2022
+703,Making the Global Interpreter Lock Optional in CPython,09-Jan-2023
+701,Syntactic formalization of f-strings,15-Nov-2022
 700,Additional Fields for the Simple API for Package Indexes,21-Oct-2022
 699,Remove private dict version field added in PEP 509,03-Oct-2022
-698,Override Decorator for Static Typing,05-Sep-2022
 697,Limited C API for Extending Opaque Types,23-Aug-2022
 696,Type defaults for TypeVarLikes,14-Jul-2022
+698,Override Decorator for Static Typing,05-Sep-2022
 695,Type Parameter Syntax,15-Jun-2022
 692,Using TypedDict for more precise **kwargs typing,29-May-2022
 694,Upload 2.0 API for Python Package Repositories,11-Jun-2022
-690,Lazy Imports,29-Apr-2022
+693,Python 3.12 Release Schedule,24-May-2022
 691,JSON-based Simple API for Python Package Indexes,04-May-2022
+690,Lazy Imports,29-Apr-2022
 689,Unstable C API tier,22-Apr-2022
 688,Making the buffer protocol accessible in Python,23-Apr-2022
-687,Isolating modules in the standard library,", "
 686,Make UTF-8 mode default,18-Mar-2022
 685,Comparison of extra names for optional distribution dependencies,08-Mar-2022
+687,Isolating modules in the standard library,", "
 684,A Per-Interpreter GIL,08-Mar-2022
 682,Format Specifier for Signed Zero,29-Jan-2022
 683,"Immortal Objects, Using a Fixed Refcount",10-Feb-2022
 681,Data Class Transforms,02-Dec-2021
+678,Enriching Exceptions with Notes,20-Dec-2021
 679,Allow parentheses in assert statements,07-Jan-2022
 680,tomllib: Support for Parsing TOML in the Standard Library,01-Jan-2022
-678,Enriching Exceptions with Notes,20-Dec-2021
-676,PEP Infrastructure Process,01-Nov-2021
 677,Callable Type Syntax,13-Dec-2021
-675,Arbitrary Literal String Type,30-Nov-2021
+676,PEP Infrastructure Process,01-Nov-2021
 674,Disallow using macros as l-values,30-Nov-2021
-672,Unicode-related Security Considerations for Python,01-Nov-2021
-671,Syntax for late-bound function argument defaults,24-Oct-2021
+675,Arbitrary Literal String Type,30-Nov-2021
 673,Self Type,10-Nov-2021
-670,Convert macros to functions in the Python C API,19-Oct-2021
+672,Unicode-related Security Considerations for Python,01-Nov-2021
 669,Low Impact Monitoring for CPython,18-Aug-2021
-667,Consistent views of namespaces,30-Jul-2021
+670,Convert macros to functions in the Python C API,19-Oct-2021
+671,Syntax for late-bound function argument defaults,24-Oct-2021
 668,Marking Python base environments as “externally managed”,18-May-2021
 666,Reject Foolish Indentation,03-Dec-2001
+667,Consistent views of namespaces,30-Jul-2021
 665,A file format to list Python dependencies for reproducibility of an application,29-Jul-2021
-664,Python 3.11 Release Schedule,12-Jul-2021
-663,"Standardizing Enum str(), repr(), and format() behaviors",30-Jun-2021
 662,Editable installs via virtual wheels,28-May-2021
-659,Specializing Adaptive Interpreter,13-Apr-2021
+663,"Standardizing Enum str(), repr(), and format() behaviors",30-Jun-2021
+664,Python 3.11 Release Schedule,12-Jul-2021
 661,Sentinel Values,06-Jun-2021
 660,Editable installs for pyproject.toml based builds (wheel based),30-Mar-2021
 658,Serve Distribution Metadata in the Simple Repository API,10-May-2021
+659,Specializing Adaptive Interpreter,13-Apr-2021
 657,Include Fine Grained Error Locations in Tracebacks,08-May-2021
 656,Platform Tag for Linux Distributions Using Musl,17-Mar-2021
 655,Marking individual TypedDict items as required or potentially-missing,30-Jan-2021
 654,Exception Groups and except*,22-Feb-2021
 653,Precise Semantics for Pattern Matching,09-Feb-2021
 651,Robust Stack Overflow Handling,18-Jan-2021
-650,Specifying Installer Requirements for Python Projects,16-Jul-2020
 652,Maintaining the Stable ABI,09-Feb-2021
+650,Specifying Installer Requirements for Python Projects,16-Jul-2020
 649,Deferred Evaluation Of Annotations Using Descriptors,11-Jan-2021
 648,Extensible customizations of the interpreter at startup,30-Dec-2020
 647,User-Defined Type Guards,07-Oct-2020
-646,Variadic Generics,16-Sep-2020
 645,Allow writing optional types as,25-Aug-2020
-643,Metadata for Package Source Distributions,24-Oct-2020
+646,Variadic Generics,16-Sep-2020
 644,Require OpenSSL 1.1.1 or newer,27-Oct-2020
+643,Metadata for Package Source Distributions,24-Oct-2020
+642,Explicit Pattern Syntax for Structural Pattern Matching,26-Sep-2020
 641,Using an underscore in the version portion of Python 3.10 compatibility tags,20-Oct-2020
 640,Unused variable syntax,04-Oct-2020
-642,Explicit Pattern Syntax for Structural Pattern Matching,26-Sep-2020
-638,Syntactic Macros,24-Sep-2020
 639,Improving License Clarity with Better Package Metadata,15-Aug-2019
-637,Support for indexing with keyword arguments,24-Aug-2020
+638,Syntactic Macros,24-Sep-2020
 636,Structural Pattern Matching: Tutorial,12-Sep-2020
+637,Support for indexing with keyword arguments,24-Aug-2020
 635,Structural Pattern Matching: Motivation and Rationale,12-Sep-2020
-634,Structural Pattern Matching: Specification,12-Sep-2020
 633,Dependency specification in pyproject.toml using an exploded TOML table,02-Sep-2020
+634,Structural Pattern Matching: Specification,12-Sep-2020
 632,Deprecate distutils module,03-Sep-2020
 631,Dependency specification in pyproject.toml based on PEP 508,20-Aug-2020
 630,Isolating Extension Modules,25-Aug-2020
-628,Add,28-Jun-2011
 629,Versioning PyPI’s Simple API,16-Jul-2020
-626,Precise line numbers for debugging and other tools.,15-Jul-2020
+628,Add,28-Jun-2011
 627,Recording installed projects,15-Jul-2020
+626,Precise line numbers for debugging and other tools.,15-Jul-2020
 625,Filename of a Source Distribution,08-Jul-2020
 624,Remove Py_UNICODE encoder APIs,06-Jul-2020
 623,Remove wstr from Unicode,25-Jun-2020
-622,Structural Pattern Matching,23-Jun-2020
 621,Storing project metadata in pyproject.toml,22-Jun-2020
-619,Python 3.10 Release Schedule,25-May-2020
+622,Structural Pattern Matching,23-Jun-2020
 620,Hide implementation details from the C API,19-Jun-2020
 617,New PEG parser for CPython,24-Mar-2020
 618,Add Optional Length-Checking To zip,01-May-2020
-616,String methods to remove prefixes and suffixes,19-Mar-2020
+619,Python 3.10 Release Schedule,25-May-2020
 615,Support for the IANA Time Zone Database in the Standard Library,22-Feb-2020
-612,Parameter Specification Variables,18-Dec-2019
-613,Explicit Type Aliases,21-Jan-2020
 614,Relaxing Grammar Restrictions On Decorators,10-Feb-2020
+613,Explicit Type Aliases,21-Jan-2020
+616,String methods to remove prefixes and suffixes,19-Mar-2020
+612,Parameter Specification Variables,18-Dec-2019
 611,The one million limit,05-Dec-2019
 610,Recording the Direct URL Origin of installed distributions,21-Apr-2019
-608,Coordinated Python release,25-Oct-2019
 609,Python Packaging Authority (PyPA) Governance,", "
+608,Coordinated Python release,25-Oct-2019
 607,Reducing CPython’s Feature Delivery Latency,11-Oct-2019
 606,Python Compatibility Version,18-Oct-2019
-605,A rolling feature release stream for CPython,20-Sep-2019
 604,Allow writing union types as,28-Aug-2019
-603,Adding a frozenmap type to collections,12-Sep-2019
-600,Future ‘manylinux’ Platform Tags for Portable Linux Built Distributions,03-May-2019
+605,A rolling feature release stream for CPython,20-Sep-2019
 602,Annual Release Cycle for Python,04-Jun-2019
+603,Adding a frozenmap type to collections,12-Sep-2019
 601,Forbid return/break/continue breaking out of finally,26-Aug-2019
+600,Future ‘manylinux’ Platform Tags for Portable Linux Built Distributions,03-May-2019
 599,The manylinux2014 Platform Tag,29-Apr-2019
-598,Introducing incremental feature releases,15-Jun-2019
-595,Improving bugs.python.org,12-May-2019
 596,Python 3.9 Release Schedule,04-Jun-2019
+598,Introducing incremental feature releases,15-Jun-2019
 597,Add optional EncodingWarning,05-Jun-2019
+595,Improving bugs.python.org,12-May-2019
 594,Removing dead batteries from the standard library,20-May-2019
+591,Adding a final qualifier to typing,15-Mar-2019
 593,Flexible function and variable annotations,26-Apr-2019
 592,Adding “Yank” Support to the Simple API,07-May-2019
-591,Adding a final qualifier to typing,15-Mar-2019
 590,Vectorcall: a fast calling protocol for CPython,29-Mar-2019
 589,TypedDict: Type Hints for Dictionaries with a Fixed Set of Keys,20-Mar-2019
 588,GitHub Issues Migration Plan,27-Mar-2019
+587,Python Initialization Configuration,27-Mar-2019
 585,Type Hinting Generics In Standard Collections,03-Mar-2019
 586,Literal Types,14-Mar-2019
-584,Add Union Operators To dict,01-Mar-2019
-587,Python Initialization Configuration,27-Mar-2019
-582,Python local packages directory,16-May-2018
 583,A Concurrency Memory Model for Python,22-Mar-2008
-580,The C call protocol,14-Jun-2018
+582,Python local packages directory,16-May-2018
 581,Using GitHub Issues for CPython,20-Jun-2018
+580,The C call protocol,14-Jun-2018
 579,Refactoring C functions and methods,04-Jun-2018
 578,Python Runtime Audit Hooks,16-Jun-2018
-577,Augmented Assignment Expressions,14-May-2018
+584,Add Union Operators To dict,01-Mar-2019
 576,Rationalize Built-in function classes,10-May-2018
+577,Augmented Assignment Expressions,14-May-2018
 575,Unifying function/method classes,27-Mar-2018
 574,Pickle protocol 5 with out-of-band data,23-Mar-2018
-573,Module State Access from C Extension Methods,02-Jun-2016
 572,Assignment Expressions,28-Feb-2018
 571,The manylinux2010 Platform Tag,05-Feb-2018
+573,Module State Access from C Extension Methods,02-Jun-2016
 570,Python Positional-Only Parameters,20-Jan-2018
 569,Python 3.8 Release Schedule,27-Jan-2018
 568,Generator-sensitivity for Context Variables,04-Jan-2018
 567,Context Variables,12-Dec-2017
 566,Metadata for Python Software Packages 2.1,01-Dec-2017
+565,Show DeprecationWarning in __main__,12-Nov-2017
+563,Postponed Evaluation of Annotations,08-Sep-2017
 564,Add new time functions with nanosecond resolution,16-Oct-2017
 562,Module __getattr__ and __dir__,09-Sep-2017
 561,Distributing and Packaging Type Information,", "
-565,Show DeprecationWarning in __main__,12-Nov-2017
-563,Postponed Evaluation of Annotations,08-Sep-2017
 560,Core support for typing module and generic types,03-Sep-2017
 559,Built-in noop(),08-Sep-2017
+557,Data Classes,02-Jun-2017
 558,Defined semantics for locals(),08-Sep-2017
 556,Threaded garbage collection,08-Sep-2017
-557,Data Classes,02-Jun-2017
 555,Context-local variables (contextvars),06-Sep-2017
-553,Built-in breakpoint(),05-Sep-2017
 554,Multiple Interpreters in the Stdlib,05-Sep-2017
+553,Built-in breakpoint(),05-Sep-2017
 552,Deterministic pycs,04-Sep-2017
-548,More Flexible Loop Control,05-Sep-2017
 551,Security transparency in the Python runtime,23-Aug-2017
-546,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,30-May-2017
-545,Python Documentation Translations,04-Mar-2017
-547,Running extension modules using the -m option,25-May-2017
-549,Instance Descriptors,04-Sep-2017
 550,Execution Context,11-Aug-2017
+549,Instance Descriptors,04-Sep-2017
+547,Running extension modules using the -m option,25-May-2017
+546,Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,30-May-2017
+548,More Flexible Loop Control,05-Sep-2017
+545,Python Documentation Translations,04-Mar-2017
 543,A Unified TLS API for Python,17-Oct-2016
-542,Dot Notation Assignment In Function Header,10-Feb-2017
 544,Protocols: Structural subtyping (static duck typing),05-Mar-2017
 540,Add a new UTF-8 Mode,05-Jan-2016
-539,A New C-API for Thread-Local Storage in CPython,20-Dec-2016
-537,Python 3.7 Release Schedule,23-Dec-2016
+542,Dot Notation Assignment In Function Header,10-Feb-2017
 541,Package Index Name Retention,12-Jan-2017
+539,A New C-API for Thread-Local Storage in CPython,20-Dec-2016
 538,Coercing the legacy C locale to a UTF-8 based locale,28-Dec-2016
+537,Python 3.7 Release Schedule,23-Dec-2016
 536,Final Grammar for Literal String Interpolation,11-Dec-2016
 535,Rich comparison chaining,12-Nov-2016
-533,Deterministic cleanup for iterators,18-Oct-2016
-531,Existence checking operators,25-Oct-2016
 534,Improved Errors for Missing Standard Library Modules,05-Sep-2016
-530,Asynchronous Comprehensions,03-Sep-2016
+533,Deterministic cleanup for iterators,18-Oct-2016
 532,A circuit breaking protocol and binary operators,30-Oct-2016
+531,Existence checking operators,25-Oct-2016
 529,Change Windows filesystem encoding to UTF-8,27-Aug-2016
+530,Asynchronous Comprehensions,03-Sep-2016
 528,Change Windows console encoding to UTF-8,27-Aug-2016
 527,Removing Un(der)used file types/extensions on PyPI,23-Aug-2016
 526,Syntax for Variable Annotations,09-Aug-2016
+524,Make os.urandom() blocking on Linux,20-Jun-2016
 525,Asynchronous Generators,28-Jul-2016
+523,Adding a frame evaluation API to CPython,16-May-2016
+521,Managing global context via ‘with’ blocks in generators and coroutines,27-Apr-2015
 522,Allow BlockingIOError in security sensitive APIs,16-Jun-2016
 520,Preserving Class Attribute Definition Order,07-Jun-2016
-521,Managing global context via ‘with’ blocks in generators and coroutines,27-Apr-2015
-524,Make os.urandom() blocking on Linux,20-Jun-2016
-523,Adding a frame evaluation API to CPython,16-May-2016
-514,Python registration in the Windows registry,02-Feb-2016
 518,Specifying Minimum Build System Requirements for Python Projects,10-May-2016
-519,Adding a file system path protocol,11-May-2016
 517,A build-system independent format for source trees,30-Sep-2015
+519,Adding a file system path protocol,11-May-2016
 515,Underscores in Numeric Literals,10-Feb-2016
 516,Build system abstraction for pip/conda etc,26-Oct-2015
+514,Python registration in the Windows registry,02-Feb-2016
 513,A Platform Tag for Portable Linux Built Distributions,19-Jan-2016
 512,Migrating from hg.python.org to GitHub,17-Jan-2015
 511,API for code transformers,04-Jan-2016
 510,Specialize functions with guards,04-Jan-2016
-509,Add a private version to dict,04-Jan-2016
 508,Dependency specification for Python Software Packages,11-Nov-2015
-506,Adding A Secrets Module To The Standard Library,19-Sep-2015
 507,Migrate CPython to Git and GitLab,30-Sep-2015
+509,Add a private version to dict,04-Jan-2016
+506,Adding A Secrets Module To The Standard Library,19-Sep-2015
 505,None-aware operators,18-Sep-2015
 504,Using the System RNG by default,15-Sep-2015
-503,Simple Repository API,04-Sep-2015
 502,String Interpolation - Extended Discussion,10-Aug-2015
-500,A protocol for delegating datetime methods to their tzinfo implementations,08-Aug-2015
+503,Simple Repository API,04-Sep-2015
 501,General purpose string interpolation,08-Aug-2015
+500,A protocol for delegating datetime methods to their tzinfo implementations,08-Aug-2015
 499,,07-Aug-2015
-498,Literal String Interpolation,01-Aug-2015
-497,A standard mechanism for backward compatibility,04-Aug-2015
 496,Environment Markers,03-Jul-2015
 495,Local Time Disambiguation,02-Aug-2015
-494,Python 3.6 Release Schedule,30-May-2015
+497,A standard mechanism for backward compatibility,04-Aug-2015
 493,HTTPS verification migration tools for Python 2.7,10-May-2015
+494,Python 3.6 Release Schedule,30-May-2015
+498,Literal String Interpolation,01-Aug-2015
 492,Coroutines with async and await syntax,09-Apr-2015
-490,Chain exceptions at C level,25-Mar-2015
 491,The Wheel Binary Package Format 1.9,16-Apr-2015
 489,Multi-phase extension module initialization,11-Aug-2013
-488,Elimination of PYO files,20-Feb-2015
+490,Chain exceptions at C level,25-Mar-2015
 487,Simpler customisation of class creation,27-Feb-2015
+488,Elimination of PYO files,20-Feb-2015
 486,Make the Python Launcher aware of virtual environments,12-Feb-2015
 485,A Function for testing approximate equality,20-Jan-2015
 484,Type Hints,29-Sep-2014
+483,The Theory of Type Hints,19-Dec-2014
 482,Literature Overview for Type Hints,08-Jan-2015
 481,"Migrate CPython to Git, Github, and Phabricator",29-Nov-2014
-483,The Theory of Type Hints,19-Dec-2014
 480,Surviving a Compromise of PyPI: End-to-end signing of packages,08-Oct-2014
 479,Change StopIteration handling inside generators,15-Nov-2014
 478,Python 3.5 Release Schedule,22-Sep-2014
@@ -338,27 +338,27 @@ number,name,status
 476,Enabling certificate verification by default for stdlib http clients,28-Aug-2014
 475,Retry system calls failing with EINTR,29-Jul-2014
 474,Creating forge.python.org,19-Jul-2014
-473,Adding structured data to built-in exceptions,29-Mar-2014
 472,Support for indexing with keyword arguments,24-Jun-2014
-471,os.scandir() function – a better and faster directory iterator,30-May-2014
+473,Adding structured data to built-in exceptions,29-Mar-2014
 470,Removing External Hosting Support on PyPI,12-May-2014
+471,os.scandir() function – a better and faster directory iterator,30-May-2014
 469,Migration of dict iteration code to Python 3,18-Apr-2014
-467,Minor API improvements for binary sequences,30-Mar-2014
 468,Preserving the order of **kwargs in a function.,05-Apr-2014
 466,Network Security Enhancements for Python 2.7.x,23-Mar-2014
-464,Removal of the PyPI Mirror Authenticity API,02-Mar-2014
+467,Minor API improvements for binary sequences,30-Mar-2014
 465,A dedicated infix operator for matrix multiplication,20-Feb-2014
+464,Removal of the PyPI Mirror Authenticity API,02-Mar-2014
 463,Exception-catching expressions,15-Feb-2014
 462,Core development workflow automation for CPython,23-Jan-2014
 461,Adding % formatting to bytes and bytearray,13-Jan-2014
 460,Add binary interpolation and formatting,06-Jan-2014
 459,Standard Metadata Extensions for Python Software Packages,11-Nov-2013
 458,Secure PyPI downloads with signed repository metadata,27-Sep-2013
-456,Secure and interchangeable hash algorithm,27-Sep-2013
 457,Notation For Positional-Only Parameters,08-Oct-2013
+456,Secure and interchangeable hash algorithm,27-Sep-2013
 455,Adding a key-transforming dictionary to collections,13-Sep-2013
-454,Add a new tracemalloc module to trace Python memory allocations,03-Sep-2013
 453,Explicit bootstrapping of pip in Python installations,10-Aug-2013
+454,Add a new tracemalloc module to trace Python memory allocations,03-Sep-2013
 452,API for Cryptographic Hash Functions v2.0,15-Aug-2013
 451,A ModuleSpec Type for the Import System,08-Aug-2013
 450,Adding A Statistics Module To The Standard Library,01-Aug-2013
@@ -366,15 +366,15 @@ number,name,status
 448,Additional Unpacking Generalizations,29-Jun-2013
 447,Add __getdescriptor__ method to metaclass,12-Jun-2013
 446,Make newly created file descriptors non-inheritable,05-Aug-2013
-445,Add new APIs to customize Python memory allocators,15-Jun-2013
-444,Python Web3 Interface,19-Jul-2010
 443,Single-dispatch generic functions,22-May-2013
+444,Python Web3 Interface,19-Jul-2010
 442,Safe object finalization,18-May-2013
+445,Add new APIs to customize Python memory allocators,15-Jun-2013
 441,Improving Python ZIP Application Support,30-Mar-2013
 440,Version Identification and Dependency Specification,18-Mar-2013
 439,Inclusion of implicit pip bootstrap in Python installation,18-Mar-2013
-438,Transitioning to release-file hosting on PyPI,15-Mar-2013
 437,"A DSL for specifying signatures, annotations and argument converters",11-Mar-2013
+438,Transitioning to release-file hosting on PyPI,15-Mar-2013
 436,The Argument Clinic DSL,22-Feb-2013
 435,Adding an Enum type to the Python standard library,23-Feb-2013
 434,IDLE Enhancement Exception for All Branches,16-Feb-2013
@@ -382,22 +382,22 @@ number,name,status
 432,Restructuring the CPython startup sequence,28-Dec-2012
 431,Time zone support improvements,11-Dec-2012
 430,Migrating to Python 3 as the default online documentation,27-Oct-2012
-428,The pathlib module – object-oriented filesystem paths,30-Jul-2012
 429,Python 3.4 Release Schedule,17-Oct-2012
 427,The Wheel Binary Package Format 1.0,20-Sep-2012
-426,Metadata for Python Software Packages 2.0,", "
+428,The pathlib module – object-oriented filesystem paths,30-Jul-2012
 425,Compatibility Tags for Built Distributions,27-Jul-2012
-423,Naming conventions and recipes related to packaging,24-May-2012
+426,Metadata for Python Software Packages 2.0,", "
 424,A method for exposing a length hint,14-Jul-2012
-421,Adding sys.implementation,26-Apr-2012
+423,Naming conventions and recipes related to packaging,24-May-2012
 422,Simpler customisation of class creation,05-Jun-2012
+421,Adding sys.implementation,26-Apr-2012
 420,Implicit Namespace Packages,19-Apr-2012
-418,"Add monotonic time, performance counter, and process time functions",26-Mar-2012
 419,Protecting cleanup statements from interruptions,06-Apr-2012
 417,Including mock in the Standard Library,12-Mar-2012
-416,Add a frozendict builtin type,29-Feb-2012
+418,"Add monotonic time, performance counter, and process time functions",26-Mar-2012
 415,Implement context suppression with exception attributes,26-Feb-2012
 414,Explicit Unicode Literal for Python 3.3,15-Feb-2012
+416,Add a frozendict builtin type,29-Feb-2012
 413,Faster evolution of the Python Standard Library,24-Feb-2012
 412,Key-Sharing Dictionary,08-Feb-2012
 411,Provisional packages in the Python standard library,10-Feb-2012
@@ -408,40 +408,40 @@ number,name,status
 406,Improved Encapsulation of Import State,04-Jul-2011
 405,Python Virtual Environments,13-Jun-2011
 404,Python 2.8 Un-release Schedule,09-Nov-2011
-402,Simplified Package Layout and Partitioning,12-Jul-2011
 403,General purpose decorator clause (aka “@in” clause),13-Oct-2011
+402,Simplified Package Layout and Partitioning,12-Jul-2011
+401,BDFL Retirement,01-Apr-2009
 400,Deprecate codecs.StreamReader and codecs.StreamWriter,28-May-2011
 399,Pure Python/C Accelerator Module Compatibility Requirements,04-Apr-2011
 398,Python 3.3 Release Schedule,23-Mar-2011
-401,BDFL Retirement,01-Apr-2009
-397,Python launcher for Windows,15-Mar-2011
 396,Module Version Numbers,16-Mar-2011
-394,The “python” Command on Unix-Like Systems,02-Mar-2011
+397,Python launcher for Windows,15-Mar-2011
 395,Qualified Names for Modules,04-Mar-2011
+394,The “python” Command on Unix-Like Systems,02-Mar-2011
 393,Flexible String Representation,24-Jan-2010
 392,Python 3.2 Release Schedule,30-Dec-2009
 391,Dictionary-Based Configuration For Logging,15-Oct-2009
 390,Static metadata for Distutils,10-Oct-2009
-387,Backwards Compatibility Policy,18-Jun-2009
 389,argparse - New Command Line Parsing Module,25-Sep-2009
+387,Backwards Compatibility Policy,18-Jun-2009
 385,Migrating from Subversion to Mercurial,25-May-2009
 386,Changing the version comparison module in Distutils,04-Jun-2009
-383,Non-decodable Bytes in System Character Interfaces,22-Apr-2009
 384,Defining a Stable ABI,17-May-2009
+383,Non-decodable Bytes in System Character Interfaces,22-Apr-2009
 382,Namespace Packages,02-Apr-2009
 381,Mirroring infrastructure for PyPI,21-Mar-2009
 380,Syntax for Delegating to a Subgenerator,13-Feb-2009
-378,Format Specifier for Thousands Separator,12-Mar-2009
 379,Adding an Assignment Expression,14-Mar-2009
+378,Format Specifier for Thousands Separator,12-Mar-2009
 377,Allow __enter__() methods to skip the statement body,08-Mar-2009
 376,Database of Installed Python Distributions,22-Feb-2009
 375,Python 3.1 Release Schedule,08-Feb-2009
-372,Adding an ordered dictionary to collections,15-Jun-2008
-373,Python 2.7 Release Schedule,03-Nov-2008
-371,Addition of the multiprocessing package to the standard library,06-May-2008
 374,Choosing a distributed VCS for the Python project,07-Nov-2008
-369,Post import hooks,02-Jan-2008
+373,Python 2.7 Release Schedule,03-Nov-2008
+372,Adding an ordered dictionary to collections,15-Jun-2008
+371,Addition of the multiprocessing package to the standard library,06-May-2008
 370,Per user site-packages directory,11-Jan-2008
+369,Post import hooks,02-Jan-2008
 368,Standard image protocol and class,28-Jun-2007
 367,New Super,28-Apr-2007
 366,Main module explicit relative imports,01-May-2007
@@ -449,18 +449,18 @@ number,name,status
 364,Transitioning to the Py3K Standard Library,01-Mar-2007
 363,Syntax For Dynamic Attribute Access,29-Jan-2007
 362,Function Signature Object,21-Aug-2006
-360,Externally Maintained Packages,30-May-2006
 361,Python 2.6 and 3.0 Release Schedule,29-Jun-2006
+360,Externally Maintained Packages,30-May-2006
 359,The “make” Statement,05-Apr-2006
 358,The “bytes” Object,15-Feb-2006
 357,Allowing Any Object to be Used for Slicing,09-Feb-2006
-354,Enumerations in Python,20-Dec-2005
 356,Python 2.5 Release Schedule,07-Feb-2006
 355,Path - Object oriented filesystem paths,24-Jan-2006
+354,Enumerations in Python,20-Dec-2005
 353,Using ssize_t as the index type,18-Dec-2005
-351,The freeze protocol,14-Apr-2005
-350,Codetags,27-Jun-2005
 352,Required Superclass for Exceptions,27-Oct-2005
+350,Codetags,27-Jun-2005
+351,The freeze protocol,14-Apr-2005
 349,Allow str() to return unicode strings,02-Aug-2005
 348,Exception Reorganization for Python 3.0,28-Jul-2005
 347,Migrating the Python CVS to Subversion,14-Jul-2004
@@ -470,15 +470,15 @@ number,name,status
 343,The “with” Statement,13-May-2005
 342,Coroutines via Enhanced Generators,10-May-2005
 341,Unifying try-except and try-finally,04-May-2005
-338,Executing modules as scripts,16-Oct-2004
-339,Design of the CPython Compiler,02-Feb-2005
 340,Anonymous Block Statements,27-Apr-2005
+339,Design of the CPython Compiler,02-Feb-2005
+338,Executing modules as scripts,16-Oct-2004
 337,Logging Usage in the Standard Library,02-Oct-2004
 336,Make None Callable,28-Oct-2004
 335,Overloadable Boolean Operators,29-Aug-2004
 334,Simple Coroutines via SuspendIteration,26-Aug-2004
-333,Python Web Server Gateway Interface v1.0,07-Dec-2003
 332,Byte vectors and String/Unicode Unification,11-Aug-2004
+333,Python Web Server Gateway Interface v1.0,07-Dec-2003
 331,Locale-Independent Float/String Conversions,19-Jul-2003
 330,Python Bytecode Verification,17-Jun-2004
 329,Treating Builtins as Constants in the Standard Library,18-Apr-2004
@@ -487,60 +487,60 @@ number,name,status
 326,A Case for Top and Bottom Values,20-Dec-2003
 325,Resource-Release Support for Generators,25-Aug-2003
 324,subprocess - New process module,19-Nov-2003
-322,Reverse Iteration,24-Sep-2003
 323,Copyable Iterators,25-Oct-2003
+322,Reverse Iteration,24-Sep-2003
 321,Date/Time Parsing and Formatting,16-Sep-2003
-319,Python Synchronize/Asynchronize Block,24-Feb-2003
 320,Python 2.4 Release Schedule,29-Jul-2003
+319,Python Synchronize/Asynchronize Block,24-Feb-2003
 318,Decorators for Functions and Methods,05-Jun-2003
 317,Eliminate Implicit Exception Instantiation,06-May-2003
-316,Programming by Contract for Python,02-May-2003
 315,Enhanced While Loop,25-Apr-2003
-313,Adding Roman Numeral Literals to Python,01-Apr-2003
+316,Programming by Contract for Python,02-May-2003
 314,Metadata for Python Software Packages 1.1,12-Apr-2003
-311,Simplified Global Interpreter Lock Acquisition for Extensions,05-Feb-2003
+313,Adding Roman Numeral Literals to Python,01-Apr-2003
 312,Simple Implicit Lambda,11-Feb-2003
+311,Simplified Global Interpreter Lock Acquisition for Extensions,05-Feb-2003
 310,Reliable Acquisition/Release Pairs,18-Dec-2002
+309,Partial Function Application,08-Feb-2003
 308,Conditional Expressions,07-Feb-2003
 307,Extensions to the pickle protocol,31-Jan-2003
-309,Partial Function Application,08-Feb-2003
-306,How to Change Python’s Grammar,29-Jan-2003
 305,CSV File API,26-Jan-2003
-304,Controlling Generation of Bytecode Files,22-Jan-2003
+306,How to Change Python’s Grammar,29-Jan-2003
 303,Extend divmod() for Multiple Divisors,31-Dec-2002
+304,Controlling Generation of Bytecode Files,22-Jan-2003
 302,New Import Hooks,19-Dec-2002
 301,Package Index and Metadata for Distutils,24-Oct-2002
-299,Special __main__() function in modules,12-Aug-2002
 298,The Locked Buffer Interface,26-Jul-2002
+299,Special __main__() function in modules,12-Aug-2002
 297,Support for System Upgrades,19-Jul-2001
 296,Adding a bytes Object Type,12-Jul-2002
 295,Interpretation of multiline string constants,22-Jul-2002
-294,Type Names in the types Module,19-Jun-2002
 293,Codec Error Handling Callbacks,18-Jun-2002
-289,Generator Expressions,30-Jan-2002
+294,Type Names in the types Module,19-Jun-2002
 292,Simpler String Substitutions,18-Jun-2002
 291,Backward Compatibility for the Python 2 Standard Library,06-Jun-2002
 290,Code Migration and Modernization,06-Jun-2002
-286,Enhanced Argument Tuples,03-Mar-2002
+289,Generator Expressions,30-Jan-2002
 288,Generators Attributes and Exceptions,21-Mar-2002
 287,reStructuredText Docstring Format,25-Mar-2002
 285,Adding a bool type,08-Mar-2002
-284,Integer for-loops,01-Mar-2002
+286,Enhanced Argument Tuples,03-Mar-2002
 283,Python 2.3 Release Schedule,27-Feb-2002
+284,Integer for-loops,01-Mar-2002
 282,A Logging System,04-Feb-2002
 281,Loop Counter Iteration with range and xrange,11-Feb-2002
 279,The enumerate() built-in function,30-Jan-2002
 280,Optimizing access to globals,10-Feb-2002
-277,Unicode file name support for Windows NT,11-Jan-2002
 278,Universal Newline Support,14-Jan-2002
-276,Simple Iterator for ints,12-Nov-2001
+277,Unicode file name support for Windows NT,11-Jan-2002
 275,Switching on Multiple Values,10-Nov-2001
+276,Simple Iterator for ints,12-Nov-2001
 274,Dict Comprehensions,25-Oct-2001
 273,Import Modules from Zip Archives,11-Oct-2001
 272,API for Block Encryption Algorithms v1.0,18-Sep-2001
-270,uniq method for list objects,21-Aug-2001
 271,Prefixing sys.path by command line option,15-Aug-2001
 269,Pgen Module for Python,24-Aug-2001
+270,uniq method for list objects,21-Aug-2001
 268,Extended HTTP functionality and WebDAV,20-Aug-2001
 267,Optimized Access to Module Namespaces,23-May-2001
 266,Optimizing Global Variable/Attribute Access,13-Aug-2001
@@ -548,63 +548,63 @@ number,name,status
 264,Future statements in simulated shells,30-Jul-2001
 263,Defining Python Source Code Encodings,06-Jun-2001
 262,A Database of Installed Python Packages,08-Jul-2001
-261,Support for “wide” Unicode characters,27-Jun-2001
 260,Simplify xrange(),26-Jun-2001
+261,Support for “wide” Unicode characters,27-Jun-2001
 259,Omit printing newline after newline,11-Jun-2001
-257,Docstring Conventions,29-May-2001
 258,Docutils Design Specification,", "
-255,Simple Generators,18-May-2001
 256,Docstring Processing System Framework,01-Jun-2001
+257,Docstring Conventions,29-May-2001
+255,Simple Generators,18-May-2001
 254,Making Classes Look More Like Types,18-Jun-2001
 253,Subtyping Built-in Types,14-May-2001
 252,Making Types Look More Like Classes,19-Apr-2001
-251,Python 2.2 Release Schedule,17-Apr-2001
 250,Using site-packages on Windows,30-Mar-2001
-248,Python Database API Specification v1.0,08-May-1996
+251,Python 2.2 Release Schedule,17-Apr-2001
 249,Python Database API Specification v2.0,12-Apr-1999
-246,Object Adaptation,21-Mar-2001
+248,Python Database API Specification v1.0,08-May-1996
+231,__findattr__(),30-Nov-2000
 247,API for Cryptographic Hash Functions,23-Mar-2001
 230,Warning Framework,28-Nov-2000
-228,Reworking Python’s Numeric Model,04-Nov-2000
 229,Using Distutils to Build Python,16-Nov-2000
-226,Python 2.1 Release Schedule,16-Oct-2000
+228,Reworking Python’s Numeric Model,04-Nov-2000
 227,Statically Nested Scopes,01-Nov-2000
+226,Python 2.1 Release Schedule,16-Oct-2000
 225,Elementwise/Objectwise Operators,19-Sep-2000
 224,Attribute Docstrings,23-Aug-2000
 223,Change the Meaning of,20-Aug-2000
 222,Web Library Enhancements,18-Aug-2000
 221,Import As,15-Aug-2000
-219,Stackless Python,14-Aug-2000
 220,"Coroutines, Generators, Continuations",14-Aug-2000
-218,Adding a Built-In Set Object Type,31-Jul-2000
+219,Stackless Python,14-Aug-2000
 217,Display Hook for Interactive Use,31-Jul-2000
-215,String Interpolation,24-Jul-2000
+218,Adding a Built-In Set Object Type,31-Jul-2000
 216,Docstring Format,31-Jul-2000
-213,Attribute Access Handlers,21-Jul-2000
+215,String Interpolation,24-Jul-2000
 214,Extended Print Statement,24-Jul-2000
+213,Attribute Access Handlers,21-Jul-2000
+212,Loop Counter Iteration,22-Aug-2000
 211,Adding A New Outer Product Operator,15-Jul-2000
 210,Decoupling the Interpreter Loop,15-Jul-2000
-212,Loop Counter Iteration,22-Aug-2000
 209,Multi-dimensional Arrays,03-Jan-2001
 208,Reworking the Coercion Model,04-Dec-2000
-206,Python Advanced Library,14-Jul-2000
 207,Rich Comparisons,25-Jul-2000
 205,Weak References,14-Jul-2000
+206,Python Advanced Library,14-Jul-2000
 204,Range Literals,14-Jul-2000
-203,Augmented Assignments,13-Jul-2000
 202,List Comprehensions,13-Jul-2000
-201,Lockstep Iteration,13-Jul-2000
+203,Augmented Assignments,13-Jul-2000
 200,Python 2.0 Release Schedule,12-Jul-2000
+201,Lockstep Iteration,13-Jul-2000
 160,Python 1.6 Release Schedule,25-Jul-2000
 103,Collecting information about git,01-Jun-2015
 102,Doing Python Micro Releases,09-Jan-2002
-42,Feature Requests,12-Sep-2000
 101,Doing Python Releases 101,22-Aug-2001
 100,Python Unicode Integration,10-Mar-2000
+42,Feature Requests,12-Sep-2000
 20,The Zen of Python,19-Aug-2004
-12,Sample reStructuredText PEP Template,05-Aug-2002
 13,Python Language Governance,16-Dec-2018
 11,CPython platform support,07-Jul-2002
+12,Sample reStructuredText PEP Template,05-Aug-2002
 10,Voting Guidelines,07-Mar-2002
 9,Sample Plaintext PEP Template,14-Aug-2001
 8,Style Guide for Python Code,05-Jul-2001

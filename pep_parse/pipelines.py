@@ -32,11 +32,9 @@ class PepParsePipeline:
         time_formated = dt.datetime.now().strftime(DATETIME_FORMAT)
         file_name = f'status_summary_{time_formated}.csv'
         file_path = self.results_dir / file_name
-        writing_format = (
-            [["Статус", "Количество"]] +
-            [[k, v] for k, v in self.pep_status.items()] +
-            [["Total", total]]
-        )
         with open(file_path, 'w', encoding='utf-8') as f:
             writer = csv.writer(f, dialect='unix')
-            writer.writerows(writing_format)
+            writer.writerow(('Статус', 'Количество'))
+            for key, value in self.pep_status.items():
+                writer.writerow([key, value])
+            writer.writerow(['Total', total])
